@@ -55,7 +55,8 @@ public class ProductFactory {
 			long startTime = System.nanoTime();
 			sup.start();
 			
-			for(int i=0; i< 3; i++){
+			int numWP = (bolts/2 < 3) ? bolts/2:3;
+			for(int i=0; i< numWP; i++){
 				es.execute(empRunnable);
 			}
 			es.shutdown();

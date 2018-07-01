@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="test.monitor.TestAssemblyMonitor" time="2.041" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="test.monitor.TestAssemblyMonitor" time="2.079" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
@@ -63,7 +63,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="test.monitor.TestAssemblyMonitor" name="testConveyorBeltLoading" time="0.015"/>
-  <testcase classname="test.monitor.TestAssemblyMonitor" name="testProductAssemblyLine" time="1.994"/>
-  <testcase classname="test.monitor.TestAssemblyMonitor" name="testInputValues" time="0.032"/>
+  <testcase classname="test.monitor.TestAssemblyMonitor" name="testConveyorBeltLoading" time="0.034"/>
+  <testcase classname="test.monitor.TestAssemblyMonitor" name="testProductAssemblyLine" time="1.986"/>
+  <testcase classname="test.monitor.TestAssemblyMonitor" name="testInputValues" time="0.059"/>
 </testsuite>
